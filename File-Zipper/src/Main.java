@@ -9,7 +9,9 @@ import java.util.zip.ZipOutputStream;
 public class Main {
     public static void main(String[] args) throws Exception {
         Scanner s = new Scanner(System.in);
+        System.out.println("input file path");
         String path1=s.nextLine();
+        System.out.println("input file name after zipping");
         String path2=s.nextLine();
         Compress(path1, path2);
     }
